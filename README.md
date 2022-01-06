@@ -1,2 +1,2 @@
 # dear-
-A diary or blog app that allows a user to journal their daily affairs, experiences and even secrets!
+A diary or blog app that gives tips and tricks to readers in letter writing form!
