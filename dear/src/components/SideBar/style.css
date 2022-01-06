@@ -1,0 +1,59 @@
+.sideBarContainer{
+    width: 28%;
+    background-color: #f3f5f0;
+    
+    }
+
+.cardHeader{
+    text-transform: capitalize;
+    font-size: 20px; 
+    text-align: center;
+    box-sizing: border-box; 
+    letter-spacing: 1.5px ;
+    color: black;
+
+
+}
+
+.profileImageContainer{
+    width:100% ;
+    box-sizing: border-box;
+
+}
+
+.profileImageContainer img{
+    max-width: 100%;
+    max-height: 100% ;
+    margin: 20px 0;
+}
+
+.dearBio{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.recentPosts{
+    padding: 10px 0;
+
+}
+
+.recentPost{
+border-bottom: 1px solid #ababab;
+margin-bottom: 10px;
+}
+
+.recentPost h3{
+    font-weight: 500;
+    color: #666;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+    margin: 0;
+
+}
+
+.recentPost span {
+    font-size: 10px;   
+    font-weight: 400;
+    color: #6c6c66;
+}

@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "id":1,
+            "blogCategory": "Featured",
+            "blogTitle": "Dear Nighttime Crawler,",
+            "postedOn": "January 7, 2021",
+            "author": "Jamila",
+            "blogImage": "nightcrawler.jpg",
+            "blogText": "We know that you're an adventurer that takes journeys mostly at night but this isn't always safe. we have put together a list of items you need for safety during your adventures things like: Phone, to call emergency services.Pepper Spray, for those who come way too close. Taser, only if you have a license!. a torch to chase all the ghouls away!. Happy Nighttime crawling! yours sincerely, Jamila."
+
+        },
+       
+        {
+
+            "id":2,
+            "blogCategory": "Travelimg",
+            "blogTitle": "Dear Globe Trotter,",
+            "postedOn": "January 9, 2021",
+            "author": "Sean",
+            "blogImage": "traveller.jpg",
+            "blogText": "Got that trunk space? well if you dont here are tips on how to pack and be prepared for the most epic experiences. you need different clothing for different destinations but what doesn't change is how they all fit in your box, here are four tips on how to pack: Roll up your clothes, you get more space in your trunk. Get storage containers for jewelry and toiletries. Don't pack a towel, you'll get plenty in the hotel. Wear any coats or sweaters you're wearing on the trip to the airport to save space. There you have it, all packed up. Yours sincerely, Sean."
+             
+
+
+
+        }
+    ]
+
+
+
+
+
+
+
+}

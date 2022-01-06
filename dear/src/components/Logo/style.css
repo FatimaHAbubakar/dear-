@@ -1,0 +1,11 @@
+.Logo{
+   text-align: left; 
+}
+
+.Logo a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-emphasis: none;
+    color: black;
+
+}
