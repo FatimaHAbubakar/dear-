@@ -46,7 +46,8 @@ export const BlogPost = (props) => {
  
             <div className='postImageContainer'>
                 
-                <img src={require(`"../../Assets/images/${post.blogImage}"`)} alt='post image'/>
+              
+                <img src='./media/images${post.blogImage}' alt='post image'/>
 
             </div>
 

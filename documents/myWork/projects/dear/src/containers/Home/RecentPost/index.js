@@ -15,7 +15,8 @@ export const RecentPost
     <div style={props.style}>
     <Card style={{ marginBottom: '20px 0' }}>
         <div className="postImageWrapper">
-        <img alt="post" src={'../../images/nightcrawler.jpg'} />
+        <img alt="post" src='./media/images/nightcrawler.jpg' />
+        
 
         </div>
         <div style={{textAlign: 'center'}}>

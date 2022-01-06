@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from '../UI/Card';
 import './style.css';
-import BlogPost from '../BlogPost';
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import BlogPost from '../BlogPost';
 
 /**
 * @author
@@ -18,7 +18,7 @@ export const SideBar
 
    
     useEffect(() => {
-     const Posts = blogPost.data;
+     //const Posts = blogPost.data;
      setPost(Posts);
     },
     [Posts]);
@@ -34,7 +34,7 @@ export const SideBar
             </span>
         </div>
         <div className='profileImageContainer'>
-            <img alt='dear image' src={require('../../Assets/images/aboutdear.jpg')}/>
+            <img alt='dear image' src='./media/images/aboutdear.jpg'/>
 
         </div>
         <div className='cardBody'>
@@ -48,7 +48,7 @@ export const SideBar
         <div className='cardHeader'>
             <span>
              <div className='Ig'>
-              <img className='searchIcon' src={require('../../Assets/icons/socialmedia.png')} alt="instagram"/>
+              <img className='searchIcon' src='./media/icons/socialmedia.png'alt="instagram"/>
             </div>
             </span>
         </div>

@@ -39,7 +39,7 @@ export const Navbar
         <div className='Search'>
           <form onSubmit={submitSearch}>
             <input type='Text' placeholder='Search posts' className={searchClass}/>
-            <img onClick={openSearch} className='searchIcon' src={require('../../Assets/icons/search_icon.png')} alt="search"/>
+            <img onClick={openSearch} className='searchIcon' src='./media/icons/search_icon.png' alt="search"/>
          </form>
         </div>
         

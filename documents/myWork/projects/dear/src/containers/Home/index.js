@@ -6,6 +6,7 @@ import { RecentPost } from './RecentPost';
 import './style.css';
 import blogData from '../../Data/Blog.json';
 
+
 const SideImage = props => {
     return(
      <div style={{ height: `${props.Height}px` }}>
@@ -14,21 +15,9 @@ const SideImage = props => {
     )
 }
 
-const ImageGallery = props=> { <div className='galleryPost' style={props.galleryStyle}>
-               
-<section style={{ width: '70%' }}>
-    <div className='mainImagewrapper'>
-        <img alt='post' src={require('../../Assets/images',props.imgArray[0])} />
-    </div>
-</section>
-<section className='sideImageWrapper' style={{ width: '29%' }}>
-    <SideImage height ={props.sideImageHeight}
-     src={require('../../Assets/images',props.imgArray[1])}  alt=""/>
-    
-</section>
-</div>};
 
-const Home = props => {
+
+export const Home = props => {
 const galleryHeight = 450;
 const galleryStyle = {
     height: galleryHeight + 'px',
@@ -41,13 +30,22 @@ console.log(blogData)
     return(
         <div>
             <Card>
-             <ImageGallery
-                largeWidth="70%"
-                smallWidth="29%"
-                sideImageHeight={sideImageHeight}
-                galleryStyle={galleryStyle}
-               imagesArray={imgArray}
-                 /> 
+            <div className='galleryPost'>
+
+<section style={{ width: '70%' }}>
+    <div className='mainImagewrapper'>
+        <img alt='post' src={'./media/images', props.imgArray[0]} />
+    </div>
+</section>
+<section className='sideImageWrapper' style={{ width: '29%' }}>
+    <SideImage height={props.sideImageHeight}
+        src={'./media/images', props.imgArray[1]} alt="" />
+
+</section>
+</div>;
+            
+              
+                
     
             </Card>
     
@@ -60,5 +58,6 @@ console.log(blogData)
     );
 
 
-export default Home;
+
     }
+export default Home

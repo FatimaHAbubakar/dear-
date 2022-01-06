@@ -15,9 +15,9 @@ const Header  = (props) => {
         </nav>
         
         <div className='Search'>
-          <form onSubmit={submitSearch}>
-            <input type='Text' placeholder='Search posts' className={searchClass}/>
-            <img onClick={openSearch} className='searchIcon' src={require('../../Assets/icons/search_icon.png')} alt="search"/>
+          <form >
+            <input type='Text' placeholder='Search posts' />
+            <img className='searchIcon' src='./media/icons/search_icon.png' alt="search"/>
          </form>
         </div>
     </header>
